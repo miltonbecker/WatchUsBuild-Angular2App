@@ -1,1 +1,15 @@
-<h1>Scoreboard</h1>
+<header class="container">
+    <h1>Scoreboard</h1>
+    <h3>Race Notifications</h3>
+    <ul>
+        <li></li>
+    </ul>
+</header>
+
+<div class="container-fluid scoreboard-display">
+    <div class="row">
+        <div class="col-xs-4" *ngFor="let race of races">
+            <scoreboard-item [race]="race"></scoreboard-item>
+        </div>
+    </div>
+</div>

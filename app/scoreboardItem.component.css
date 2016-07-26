@@ -1,0 +1,9 @@
+.scoreboard-item {
+  border: 2px solid #F88;
+  padding: 10px;
+}
+
+.scoreboard-item.finished {
+  border: 2px solid #8F8;
+  padding: 10px;
+}
